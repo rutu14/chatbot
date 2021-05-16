@@ -1,1 +1,1 @@
-web gunicorn maine-raw:app
+web: gunicorn maine-raw:app

@@ -19,9 +19,9 @@ def sendmail():
 
     port = 465  # For SSL
     smtp_server = "smtp.gmail.com"
-    sender_email = "test12mail98@gmail.com"  # Enter your address
-    receiver_email = "vidyapunjabi7@gmail.com"  # Enter receiver address
-    password = "testmail!@98"
+    sender_email = "vidyapunjabi7@gmail.com"  # Enter your address
+    receiver_email = "test12mail98@gmail.com"  # Enter receiver address
+    password = "jiorutuja"
 
     messagemail = MIMEMultipart()
     messagemail['Subject'] = "Admission enquiry"
